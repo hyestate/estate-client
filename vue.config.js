@@ -1,6 +1,5 @@
 /**
  * @file vue 入口
- * @author wukaifang <wukaifang@baidu.com>
  */
 const path = require('path');
 function getIP() {
