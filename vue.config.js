@@ -46,6 +46,48 @@ module.exports = {
                 '@components': path.resolve(__dirname, 'src/components'),
                 '@views': path.resolve(__dirname, 'src/views')
             }
-        }
-    }
+        },
+        // css: {
+        //     loaderOptions: {
+        //         css: {
+        //             // options here will be passed to css-loader
+        //         },
+        //         postcss: {
+        //             // options here will be passed to postcss-loader
+        //             plugins: [require('postcss-px2rem')({
+        //                 remUnit: 75
+        //             })]
+        //         }
+        //     }
+        // }
+    },
+    // chainWebpack: config => {
+    //     config.module
+    //       .rule('css')
+    //       .test(/\.css$/)
+    //       .oneOf('vue')
+    //       .resourceQuery(/\?vue/)
+    //       .use('px2rem')
+    //         .loader('px2rem-loader')
+    //         .tap(options => {
+    //             return {
+    //                 remUnit: 64
+    //             } 
+    //         })
+    //         .end()
+
+    //     config.module
+    //       .rule('less')
+    //       .test('/\.less$/')
+    //       .oneOf('vue')
+    //       .resourceQuery(/\?vue/)
+    //       .use('px2rem')
+    //         .loader('px2rem-loader')
+    //         .tap(options => {
+    //             return {
+    //                 remUnit: 64
+    //             } 
+    //         })
+    //         .end()
+    // }
 };

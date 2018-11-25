@@ -26,4 +26,14 @@
     }
   }
 }
+
+.pxtorem {
+  font-size: 20px;
+}
+</style>
+
+<style>
+.pxtorem1 {
+  font-size: 20px;
+}
 </style>
